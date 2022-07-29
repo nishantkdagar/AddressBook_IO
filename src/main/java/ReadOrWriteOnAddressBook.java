@@ -146,10 +146,10 @@ public class ReadOrWriteOnAddressBook {
     public static void inputDetails(ArrayList<Contacts> contactDetails){
         Contacts contacts=new Contacts();
         Scanner sc = new Scanner(System.in);
-        System.out.print("First name: ");
+        System.out.print("First Name: ");
         contacts.setFirstName(sc.next());
 
-        System.out.print("Last name: ");
+        System.out.print("Last Name: ");
         contacts.setLastName(sc.next());
 
         System.out.print("Address: ");
